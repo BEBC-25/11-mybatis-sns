@@ -1,8 +1,8 @@
 name: 04 Integration Test Pipeline
 
 on:
-  push:
-    branches: [ "main" ]
+  pull_request:
+    branches: [ "develop" ]
 
 jobs:
   integration-test:
